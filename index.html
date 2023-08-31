@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{E.H} Piano</title>
+</head>
+
+<body>
+    <h1 style="text-align: center;">{E.H} Piano</h1>
+    <table>
+        <tr>
+            <td>
+                <button onclick="playSound(1, 'do');"
+                    style="background-color: black; color:black; height:10em; width:5em;"></button>
+            </td>
+            <td>
+                <button onclick="playSound(2, 're');"
+                    style="background-color: white; color:white; height:10em; width:5em;"></button>
+            </td>
+            <td>
+                <button onclick="playSound(3, 'mi');"
+                    style="background-color: black; color:black; height:10em; width:5em;"></button>
+            </td>
+            <td>
+                <button onclick="playSound(4, 'fa');"
+                    style="background-color: white; color:white; height:10em; width:5em;"></button>
+            </td>
+            <td>
+                <button onclick="playSound(5, 'sol');"
+                    style="background-color: black; color:black; height:10em; width:5em;"></button>
+            </td>
+            <td>
+                <button onclick="playSound(6, 'la');"
+                    style="background-color: white; color:white; height:10em; width:5em;"></button>
+            </td>
+            <td>
+                <button onclick="playSound(7, 'ti');"
+                    style="background-color: black; color:black; height:10em; width:5em;"></button>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <div id="Sound1" style="color: red; text-align:center;"></div>
+            </td>
+            <td>
+                <div id="Sound2" style="color: red; text-align:center;"></div>
+            </td>
+            <td>
+                <div id="Sound3" style="color: red; text-align:center;"></div>
+            </td>
+            <td>
+                <div id="Sound4" style="color: red; text-align:center;"></div>
+            </td>
+            <td>
+                <div id="Sound5" style="color: red; text-align:center;"></div>
+            </td>
+            <td>
+                <div id="Sound6" style="color: red; text-align:center;"></div>
+            </td>
+            <td>
+                <div id="Sound7" style="color: red; text-align:center;"></div>
+            </td>
+        </tr>
+    </table>
+    <br>
+    <hr>
+    <div style="text-align:right;">
+        <a href="#" onclick="ResetMusic();">Clear</a>
+    </div>
+    <h2> Music: </h2>
+    <div id="Music" style="color:black;"></div>
+</body>
+<script src="index.js"></script>
+</html>
